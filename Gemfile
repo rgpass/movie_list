@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'slim'
+gem 'httparty'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'

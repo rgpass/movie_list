@@ -1,0 +1,18 @@
+<h1>movieList</h1>
+Title: <input ng-model="movieTitle"><br/>
+Min Year: <input ng-model="minYear"><br/>
+Max Year: <input ng-model="maxYear"><br/>
+<button ng-click="submit()">Search</button>
+
+<br/><br/><br/>
+<h2 ng-hide="results">Search movieList based off the movie title!</h2>
+
+<div ng-show="results">
+
+  <div ng-repeat="result in results">
+    <ul>
+      <li>{{ result["title"] }}</li>
+      <li>{{ result["year"] }}</li>
+    </ul>
+  </div>
+</div>
