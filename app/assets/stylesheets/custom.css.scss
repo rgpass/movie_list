@@ -1,0 +1,106 @@
+/* Functional */
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.display-none {
+  display: none;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-padding-top {
+  padding-top: 0px;
+}
+
+.float-right {
+  float: right;
+}
+
+.padding-left {
+  padding-left: 5px;
+}
+
+.margin-left {
+  margin-left: 5px;
+}
+
+.margin-right {
+  margin-right: 5px;
+}
+
+/* General */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+hr.thin {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.navbar-default {
+  border-radius: 0px;
+}
+
+/* Text */
+.strong {
+  font-weight: bold;
+}
+
+.normal-links a {
+  text-decoration:none !important;
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.black {
+  color: black;
+}
+
+
+/* Forms */
+.form-font {
+  label {
+    font-size: 18px;
+  }
+}
+
+.form-padding {
+  input {
+    margin-bottom: 15px;
+  }
+}
+
+/* Div backgrounds */
+.bg-gray {
+  background-color: #f4f4f4;
+  min-height: 200px;
+}

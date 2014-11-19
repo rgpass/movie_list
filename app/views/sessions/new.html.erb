@@ -1,0 +1,19 @@
+<input ng-model="name">
+<h1>Hello {{ name }}</h1>
+
+<h1>Sign In</h1>
+<p class="strong">New user? <%= link_to "Sign up", signup_path %>.</p>
+
+<%= form_for(:session, url: sessions_path) do |f| %>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-4 form-padding">
+      <%= f.label :email, class: "control-label" %>
+      <%= f.text_field :email, class: "form-control input-sm", autofocus: true %>
+
+      <%= f.label :password, class: "control-label" %>
+      <%= f.password_field :password, class: "form-control input-sm" %>
+
+      <%= f.submit "Sign In", class: "btn btn-large btn-primary" %>
+    </div>
+  </div>
+<% end %>
